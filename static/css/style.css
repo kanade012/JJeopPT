@@ -1,0 +1,172 @@
+#전체배경{
+    width: 1900px;
+    height: 955px;
+    margin-top:-7.2px;
+    background-color: #dff0f0;
+    position: relative;
+
+}
+#대화창배경{
+    width: 1020px;
+    height: 88px;
+    opacity: 0.5;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    position: absolute;
+    top: 87.7%;
+    left: 23.4%;
+}
+#전송버튼{
+    width: 25px;
+    height: 25px;
+    opacity: 0.55;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    top: 89.9%;
+    left: 71.7%;
+    position: fixed;
+}
+#돋보기{
+    width: 20px;
+    height: 20px;
+    opacity: 0.19;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    position: fixed;
+    top: 89.9%;
+    left: 27.2%;
+}
+#로고{
+    width: 516px;
+    height: 515px;
+    opacity: 0.1;
+      position: fixed;
+      top: 22.4%;
+      left: 36.6%;
+  }
+#로고 > img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#돋보기 > img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#전송버튼 > img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #dk {
+    width: 148px;
+    height: 16px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9a9a9a;
+  }
+.input-btn {
+    top: 90.6%;
+    left: 72.0%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: #fff;
+    border-color: #fff;
+    opacity: 0%;
+}
+.input-text{
+  width: 790px;
+  height: 16px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  font-family: NanumGothic;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9a9a9a;
+  resize: none;
+  top: 91%;
+  left: 28.8%;
+  position: absolute;
+}
+#대화창 {
+  width: 933px;
+  height: 57px;
+  border-radius: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  position: absolute;
+  top: 89.2%;
+  left: 25.7%;
+}
+#쩝피티 {
+  width: 300px;
+  height: 70px;
+  opacity: 0.1;
+  font-family: GyeonggiTitle;
+  font-size: 70px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #164c96;
+  position: absolute;
+  top: 11.4%;
+  left: 42.1%;
+}
+#print{
+  width: 900px;
+  height: 704px;
+  top:100px;
+  left:510px;
+  position: relative;
+  display: none;
+}
+#이미지{
+  width: 516px;
+  height: 515px;
+    position: fixed;
+    border-color: black;
+    top: 16.4%;
+    left: 36.6%;
+}
+#이미지 > img{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 50%;
+left: 50%;
+border-color: black;
+transform: translate(-50%, -50%);
+}
+#흰박스 {
+  width: 935px;
+  height: 744px;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  top:80px;
+  left:493px;
+  display: none;
+  position: fixed;
+}

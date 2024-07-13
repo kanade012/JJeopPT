@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>JJeopPT</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div id = "전체배경">
+        <div id = "대화창배경"> </div>
+        <div id = "대화창"> </div>
+        <div id = "전송버튼">
+            <img src = "{{url_for('static', filename = '/images/전송.png')}}" alt = "전송사진">
+        </div>
+        <div id = "돋보기">
+            <img src = "{{url_for('static', filename = '/images/돋보기.png')}}" alt = "돋보기사진">
+        </div>
+        <div id = "로고">
+            <img src = "{{url_for('static', filename = '/images/진접아이콘.png')}}" alt = "로고사진">
+        </div>
+        <div id = "쩝피티"> 쩝PT </div>
+        <form action="\post" method="post" class="input-form">
+            <textarea type="text" name='id_name' value="tmp tmp tmp" class="input-text" placeholder="무엇을 도와드릴까요?"></textarea>
+            <input type="submit" value="" class="input-btn">
+        </form>
+        <div id="흰박스"> </div>
+        <div id="print"> {{value}} </div>   
+        <div id = "이미지">
+            <img src="{{ url_for('static', filename = image)}}">
+        </div>
+        <script>
+            function oo(){
+                var imag = {{image|tojson}};
+                var sdsd = {{value|tojson}};
+                if(imag!="없음") {
+                    document.getElementById("이미지").style.display = "block";
+                }
+                else {
+                    document.getElementById("이미지").style.display = "none";
+
+                }
+                if(sdsd!="없음") {
+                    document.getElementById("흰박스").style.display = "block";
+                    document.getElementById("print").style.display = "block";
+                }
+                else {
+                    document.getElementById("이미지").style.display = "none";
+                    document.getElementById("print").style.display = "none";
+                }
+                
+            }
+            
+            setInterval(() => oo(), 20);    
+        </script>
+    </div>
+</body>
+</html>
